@@ -57,9 +57,13 @@ The application consists of several key components:
 
 3. **Configure the application**
    
-   Copy the sample environment file:
+   Copy the sample environment file (linux):
    ```bash
    cp .env.sample .env
+   ```
+   Copy the sample environment file (windows):
+   ```bash
+   copy .env.sample .env
    ```
    
    Edit `.env` with your credentials:
@@ -78,9 +82,14 @@ The application consists of several key components:
 
 ### Docker Setup
 
-1. **Setup environment file**
+1. **Setup environment file (linux)**
    ```bash
    cp .env.sample .env
+   # Edit .env with your actual credentials
+   ```
+   **Setup environment file (windows)**
+   ```bash
+   copy .env.sample .env
    # Edit .env with your actual credentials
    ```
 
