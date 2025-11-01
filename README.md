@@ -98,12 +98,7 @@ The application consists of several key components:
    docker build -t eec-test-solver .
    ```
 
-3. **Run with docker-compose (recommended)**
-   ```bash
-   docker-compose up --build
-   ```
-
-4. **Or run with environment variables**
+3. **run with environment variables**
    ```bash
    docker run -it -e GEMINI_API_KEY="your_api_key" \
               -e USER_ID="your_user_id" \
