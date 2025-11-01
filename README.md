@@ -41,12 +41,17 @@ The application consists of several key components:
    
    Using uv (recommended):
    ```bash
-   # Install uv if not already installed
+   # Install uv if not already installed (linux)
    curl -LsSf https://astral.sh/uv/install.sh | sh
    
    # Install dependencies
    uv pip install -r requirements.txt
    playwright install chromium
+
+   ## for windows
+   pip install uv
+   uv pip install -r requirements.txt
+   uv run playwright install chromium
    ```
    
    Using pip:
