@@ -29,6 +29,9 @@ The application consists of several key components:
 
 ## Installation
 
+### Tutorial for windows
+https://github.com/user-attachments/assets/d7cddc37-ebee-4234-92bb-6c6651dd3055
+
 ### Local Setup
 
 1. **Clone the repository**
